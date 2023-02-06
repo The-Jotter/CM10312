@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
         with: 
           branch: main
-          repository: org/parent_repository
+          repository: The-Jotter/Notes
           token: ${{ secrets.PUSHBUILDDEPLOY }}
           submodules: true
 
