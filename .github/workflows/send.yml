@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with: 
+          branch: main
           repository: org/parent_repository
           token: ${{ secrets.PUSHBUILDDEPLOY }}
           submodules: true
