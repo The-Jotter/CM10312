@@ -22,7 +22,7 @@ $n!$ can be written as $n! = 1 \cdot 2 \cdot \dots \cdot n$.
 
 If we:
 * define $0! = 1$ (a base case),
-* and assume factorial is defined for $(n-1)$,
+* and assuming factorial is defined for $(n-1)$,
 * we can define $n! = n\cdot (n-1)!$
 
 ### Determinants of Matrices: by Induction
@@ -103,4 +103,4 @@ for any two $a_{ij}, a_{kl}$ in $C$:
 Each configuration has $n$ elements.
 
 #### How many different configurations
-Since we can make an ordered collection of elements $a_{1j_1kl}$
+Since we can make an ordered collection of elements $a_{1j_{kl}}$
